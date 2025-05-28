@@ -1,0 +1,10 @@
+start:
+MOVI r1, 20;
+MOVI r2, 33;
+ADD  r1, r2;
+INC r2;
+PUSH r3;
+POP r3;
+TEST r1, r2;
+JZ start;
+
